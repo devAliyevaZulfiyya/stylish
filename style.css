@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* p{
+    font-size: 26px;
+}
+p::first-letter{
+    font-size: 80px;
+    color: red;
+    transform: translateX(20px);
+}
+
+p::first-line{
+    background-color: antiquewhite;
+}
+
+ul{
+    margin-left: 50px;
+}
+ol{
+    margin-left: 50px;
+} 
+ul li:nth-child(odd)::marker{
+
+    content: "🖤";
+    color: blue;
+}
+ul li:nth-child(even)::marker{
+
+    content: "🧡";
+    color: blue;
+}
+
+input::placeholder{
+    font-size: 25px;
+    font-style: italic;
+    color: red;
+}
+
+::selection{
+    color: black;
+    background-color: yellow;
+} */
+
+div{
+    width: 600px;
+    height: 500px;
+    margin: 150px auto;
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s;
+    transform: scale(1.8);
+
+}
+div:hover img{
+    transform: scale(1);
+}
+/* div::before{
+    content: "";
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    transform: scaleX(0);
+    position: absolute;
+    transition: 1s;
+    transform-origin: 100% 100% ;
+    opacity: 0.4;
+    border-radius: 100% 0 0 0 ;
+}
+
+div:hover::before{
+    transform: scaleX(0.5);
+}
+
+
+div::after{
+    content: "";
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    position: absolute;
+    transition: 1s;
+    transform-origin: 0% 0% ;
+    opacity: 0.4;
+    border-radius: 0% 0 100% 0 ;
+}
+
+
+div:hover::after{
+    transform: scale(0.5);
+} */
